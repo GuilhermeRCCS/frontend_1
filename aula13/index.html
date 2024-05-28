@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13 - Web Components</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="webComponents.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="detail-container">
+
+        <h1>title</h1>
+        <p>description</p>
+    </div>
+
+    <web-gallery-data></web-gallery-data>
+
+    <web-gallery-detail></web-gallery-detail>
+
+    <web-gallery>
+        <web-toggle-button slot="toggle-button"></web-toggle-button>
+    </web-gallery>
+
+</body>
+
+</html>
