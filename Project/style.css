@@ -44,11 +44,11 @@ ul {
 }
 
 #tasks {
-    background-color: purple;
+    background-color: #EEEEEE;
 }
 
 #items {
-    background-color: blue;
+    background-color: #EEEEEE;
 }
 
 footer {
@@ -57,4 +57,11 @@ footer {
     background-color: var(--color-primary);
     padding: 10px;
     cursor: pointer;
+}
+
+#scrollbar {
+    width: 15px;
+    background: #FFA800;
+    background: #FFA800;
+
 }

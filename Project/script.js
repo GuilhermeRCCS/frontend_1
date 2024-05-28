@@ -64,7 +64,6 @@ window.onload = async () => {
             li.append(taskItem);
             tasksList.append(li);
         });
-
     }
 
     const buildItemsList = (items) => {
@@ -89,6 +88,5 @@ window.onload = async () => {
             
         });
     }
-
     buildTasksList(model.getTasks());
 }

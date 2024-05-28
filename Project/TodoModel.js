@@ -45,3 +45,5 @@ export default class TodoModel {
         localStorage.setItem("todos", JSON.stringify(this.#tasks));
     }
 }
+
+    /** */
